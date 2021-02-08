@@ -64,7 +64,3 @@ if (stringValue == 'uppercase-after-hyphen') {
 
 }
 }
-
-//function displayOutput(input) {
-  //  document.getElementById('output-text').innerHTML = input;
-//}
