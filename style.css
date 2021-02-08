@@ -1,0 +1,38 @@
+#input-text {
+    height: 18px;
+}
+
+#input-text,
+#output-text {
+    width: 41%;
+}
+
+#string,
+#input-text,
+#output-text {
+    margin-left: 5px;
+}
+
+#input-wrapper,
+#string-wrapper,
+#output-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#string-wrapper,
+#output-wrapper {
+    margin-top: -1vw;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 75%;
+}
