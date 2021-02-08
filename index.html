@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>string exercise</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="input-wrapper"><h3>Input:</h3><input type="text" name="input-text" id="input-text" /></div><br>
+        <div id="string-wrapper">
+            <h3>String:</h3>
+        <select name="string" id="string">
+            <option value="name-uppercase">If input is a first name: Make the first character in a name uppercase, and the rest lowercase</option>
+            <option value="find-first-name">If input is a full name: Find the first name</option>
+            <option value="length-first-name">If input is a full name: Find length of the first name</option>
+            <option value="middle-name">If input is a full name: Find the middle name start and end position, and the middle name itself in a full name string</option>
+            <option value="png-or-jpg">If input is a filename: Check if a filename is .png or .jpg</option>
+            <option value="hide-password">If input is a password: Hide a password with the correct number of *s</option>
+            <option value="third-uppercase">With any input: Make the third character uppercase</option>
+            <option value="uppercase-after-hyphen">With any input: Make a character uppercase, if it follows a space or a hyphen</option>
+        </select>
+        </div>
+        <script src="script.js" async defer></script>
+
+        <div id="output-wrapper">
+            <h3>Output:</h3>
+            <p id="output-text">The output should appear here</p>
+        </div>
+        <button id="output-button">Generate Output</button>
+    </body>
+</html>
